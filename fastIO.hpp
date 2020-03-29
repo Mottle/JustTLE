@@ -60,6 +60,13 @@ namespace FastIO {
             writeString(s);
             return *this;
         }
+
+        IO &operator<<(double & x) {
+            printf("%lf", x);
+            return *this;
+        }
+
+    public:
         IO &operator>>(int & x) {
             x = readInt();
             return *this;
@@ -79,6 +86,10 @@ namespace FastIO {
                 s += ch;
             }
             return * this;
+        }
+        IO &operator>>(double & x) {
+            scanf("%lf", &x);
+            return *this;
         }
     } io;
 }
