@@ -1,3 +1,2 @@
 # JustTLE
-
-An object implement of fast IO
+Implement of fast IO
