@@ -1,2 +1,2 @@
 # JustTLE
-Implement of fast IO
+Implemention of fast IO
